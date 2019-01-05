@@ -46,7 +46,7 @@ LOka.user.setUsername("Hacked u by unknown Is here")
 });
 LOka.on('message', message => {
      if (message.content === ".") {
-LOka.user.setGame(`Hacked u by unknown Is here`,'https://www.twitch.tv/hix')
+LOka.user.setGame(`Hacker pro`,'https://www.twitch.tv/hix')
 
 }
 });
