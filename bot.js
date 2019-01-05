@@ -16,8 +16,7 @@ console.log(`Logged in as  * [ "  Randy " ] servers! [ " ${LOka.guilds.size} " ]
         
 
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-Codes Server arrow_down
+
 client.on("message", m =>{
     if(m.content == "leave"){
   m.guild.leave()
