@@ -14,7 +14,19 @@ console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
 console.log(`Logged in as  * [ "  Randy " ] servers! [ " ${LOka.guilds.size} " ] Users! [ " ${LOka.users.size} " ]`);
 
         
-    
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Codes Server arrow_down
+client.on("message", m =>{
+    if(m.content == "leave"){
+  m.guild.leave()
+      .then(g => console.log(`Left the guild ${g}`))
+      .catch(console.error);
+   }
+});
+
+
 
 });
 var prefix = "-"
